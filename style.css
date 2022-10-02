@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+<<<<<<< HEAD
+    margin: 0;
+    padding: 0;
+    color: #ddd;   
+}
+body{
+    background-image: url(image/5.jpg);
+    background-size: cover;
+    
+}
+li ,a{
+    
+    font-size: 16px;
+    font-weight: 500;
+=======
+    color: #ddd; 
+}
+.container{
+    background-image: url(image/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 80px;
+    border: 3px solid rgb(210, 16, 16);
+
+}
+ .logo{
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+>>>>>>> 8253accaadab05412bbf34a530a92a8079fc0e32
+    text-decoration: none;
+    float: left;
+    margin: 26px;
+}
+.links li  { 
+    display: flex;
+    float: right;
+    list-style-type: none;
+    padding: 30px;
+    font-weight: bold;
+    margin: 15px;
+}
+.links a{
+    text-decoration: none;  
+}
+.links a:hover{
+    text-decoration:underline ;
+    opacity: 0.5;
+}
+/*Section navBar 2*/
+.nav_pages li {
+    list-style: none;
+    display: flex;
+    color: rgb(249, 248, 248);
+    
+}
+.nav_pages  a{
+    text-decoration:none ;
+}
+header{
+    display: flex;
+    justify-content: space-between;   
+}
+header .logo {
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 20px;
+    
+}
+header nav .nav_links li{
+    list-style: none;
+    margin-right: 70px;
+    display: inline;
+}
+header nav ul {
+    margin-top: 40px; 
+}
+.nav_pages {
+    margin: 80px 15px;
+}
+.nav_pages a{
+    text-decoration: none;
+    padding: 20px;
+}
+.section_body {
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.section_body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 650px;
+    line-height: 25px;
+}
+.posters{
+    justify-content: center;
+    margin:0 70px ;
+}
+.posters section{
+    display: inline-block;
+    margin: 20px 30px;
+    border: 3px solid #eee;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+.posters section img {
+    width: 250px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 15px;
+   
+}
+.posters section span{
+    display: block;
+}
+.posters section h2,span{
+    margin:  10px 25px ;
+
+<<<<<<< HEAD
+}
+.posters section #rrp::first-line{
+    text-transform: uppercase;
+}
+.posters section #price::first-letter{
+    text-transform: uppercase;
+}
+.posters section #saving::first-letter{
+    text-transform: uppercase;
+}
+=======
+/*Section h1-P*/
+section h1 , p{
+    width: 400px;
+    margin: 50px;
+}
+.images section {
+    margin: 60px;
+    display: inline-block;
+}
+.images section img{
+    width: 150px;
+    height: 350px;
+    display: block;
+    border-radius: 15px;
+
+}
+section h2{
+    text-align: center;
+}
+section #rrp,#price{
+    display: flex;
+}
+
+
+>>>>>>> 8253accaadab05412bbf34a530a92a8079fc0e32
